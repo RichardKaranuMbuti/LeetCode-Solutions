@@ -38,6 +38,7 @@ target1 = 9
 print(sumoftwo(nums1, target1))
 
 nums = [2, 7, 11, 15,]
+
 # Approach 2: two pointer approach with time complexity O(n log n)
 def twosum(nums, target):
     indexed_nums = [(num, i) for i,num in enumerate(nums)]
