@@ -1,0 +1,86 @@
+
+
+Explain the concept of decorators in Python and provide an example of how they can be used to modify the behavior of functions or classes.
+
+
+https://www.onlinegdb.com/
+Write a program that simulates a simple shopping cart system. The program should have a class
+ Product that represents a product and provides methods for getting and setting the product's
+  name,price, and quantity. The program should also have a class Cart that represents a 
+  shopping cart and provides methods for adding products to the cart, 
+removing products from the cart, and calculating the total cost of the products in the cart.
+
+"""
+#class product
+requires interface :
+  product: string
+  price: float
+  quantity: int
+  
+class Produt:
+  inherits from product
+  def add products(product, qunatity),
+  def remove products
+  def calculate cost(product, price)
+"""
+
+
+class Product:
+    def __init__(self, product,price,quantity):
+        self.product = product
+        self.price = price
+        self.cost = cost
+        
+
+class Cart(Product):
+    def add_product(self, product):
+      prodcuts = 
+      products.append(product)
+      return products
+      
+    def remove_products()
+        products.pop(product)
+        return products
+        
+    def calculate_cost()
+    
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++
+Write a function that takes a string containing just the characters (, ), {, }, [ and ], and determines if the input string is valid. An input string 
+is valid if:
+
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+
+# inputs: s, a string of parensis characters
+# outputs : a status type bolean valid or invalid
+# constants : string of parenthis chars
+# Base case : empty string or one character item
+
+def check_parenthesis(s):
+   if s[0] != s[-1]
+     return invalid
+   stack = ()
+   
+   
+   
+     
+     
+     
+    
+
+Valid
+{[]}    
+[]{}
+{[()]}
+
+
+Not Valid
+{}[
+{[]
+{[}]
+
+
